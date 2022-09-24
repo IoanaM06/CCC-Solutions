@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="added CCC_2010">
-      <change afterPath="$PROJECT_DIR$/Data/CCC_2009/J2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CCC_2009/J2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CCC_2009/Main.java" afterDir="false" />
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="added CCC_2009">
+      <change afterPath="$PROJECT_DIR$/src/CCC_2006/J2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCC_2006/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\CCC J2 Homework\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2006.Main" />
+      <module name="CCC J2 Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CCC_2006.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664055903121</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added CCC_2009">
+      <created>1664056311446</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664056311446</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +167,7 @@
     <MESSAGE value="file thingy" />
     <MESSAGE value="added CCC_2011" />
     <MESSAGE value="added CCC_2010" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CCC_2010" />
+    <MESSAGE value="added CCC_2009" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CCC_2009" />
   </component>
 </project>

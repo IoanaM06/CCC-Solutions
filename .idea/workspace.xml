@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="pushhhhh">
-      <change afterPath="$PROJECT_DIR$/src/CCC_2013/J2.java" afterDir="false" />
-    </list>
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="added CCC_2013" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664053804173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added CCC_2013">
+      <created>1664054513505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664054513505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +111,7 @@
     <MESSAGE value="added CCC_2019" />
     <MESSAGE value="added CCC_2016 + unversioned file" />
     <MESSAGE value="pushhhhh" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushhhhh" />
+    <MESSAGE value="added CCC_2013" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CCC_2013" />
   </component>
 </project>

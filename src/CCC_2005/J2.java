@@ -44,25 +44,18 @@ public class J2 {
         int divisorCounter = 0;
 
         for (int i = 1; i <= num / 2 + 1; i++) {
-            System.out.println(num % i + " --- " + i + " --- " + num);
             if (num % i <= 1) {
-                System.out.println(i);
                 divisorCounter ++;
 
                 if ((divisorCounter - 1) * 2 > 4) {
-                    System.out.println("false 1");
                     return false;
                 }
             }
         }
 
         if ((divisorCounter - 1) * 2 != 4) {
-            System.out.println("false 2");
-            System.out.println((divisorCounter - 1) * 2);
             return false;
         } else {
-            System.out.println("true");
-            System.out.println((divisorCounter - 1) * 2);
             return true;
         }
     }
@@ -73,9 +66,9 @@ public class J2 {
 
         for (int i = 0; i < rangeMax - rangeMin + 1; i++) {
             if (isRsa(rsaNum)) {
-                rsaNum++;
                 rsaNumCounter++;
             }
+            rsaNum++;
         }
 
         return "The number of RSA numbers between " + rangeMin + " and " + rangeMax + " is " + rsaNumCounter;

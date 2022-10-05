@@ -33,16 +33,51 @@ public class J2 {
 
     public J2() {
         var scanner = new Scanner(System.in);
-        System.out.print("User Input: ");
+        System.out.println("Enter lower limit of range: ");
         rangeMin = scanner.nextInt();
-        System.out.print("User Input");
+        System.out.println("Enter lower upper of range: ");
         rangeMax = scanner.nextInt();
     }
 
     public boolean isRsa(int num) {
-//  google "how to loop divisors" to help with this
-        return false;
+
+        int divisorCounter = 0;
+
+        for (int i = 1; i <= num / 2 + 1; i++) {
+            System.out.println(num % i + " --- " + i + " --- " + num);
+            if (num % i <= 1) {
+                System.out.println(i);
+                divisorCounter ++;
+
+                if ((divisorCounter - 1) * 2 > 4) {
+                    System.out.println("false 1");
+                    return false;
+                }
+            }
+        }
+
+        if ((divisorCounter - 1) * 2 != 4) {
+            System.out.println("false 2");
+            System.out.println((divisorCounter - 1) * 2);
+            return false;
+        } else {
+            System.out.println("true");
+            System.out.println((divisorCounter - 1) * 2);
+            return true;
+        }
+    }
+
+    public String answer() {
+        int rsaNumCounter = 0;
+        int rsaNum = rangeMin;
+
+        for (int i = 0; i < rangeMax - rangeMin + 1; i++) {
+            if (isRsa(rsaNum)) {
+                rsaNum++;
+                rsaNumCounter++;
+            }
+        }
+
+        return "The number of RSA numbers between " + rangeMin + " and " + rangeMax + " is " + rsaNumCounter;
     }
 }
-
-

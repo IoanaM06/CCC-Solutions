@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="added CCC_2009">
-      <change afterPath="$PROJECT_DIR$/src/CCC_2006/J2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CCC_2006/Main.java" afterDir="false" />
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="added CCC_2006">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CCC_2013/J2" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CCC_2013/J2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CCC_2005/J2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2005/J2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CCC_2005/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2005/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,46 @@
       <recent name="C:\Users\Acer\IdeaProjects\CCC J2 Homework\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CCC_2005.Main">
+    <configuration name="CCC_2005.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2005.Main" />
+      <module name="CCC J2 Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CCC_2005.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CCC_2013.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2013.Main" />
+      <module name="CCC J2 Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CCC_2013.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CCC_2016.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2016.Main" />
+      <module name="CCC J2 Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CCC_2016.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2006.Main" />
       <module name="CCC J2 Homework" />
@@ -60,7 +100,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CCC_2005.Main" />
+        <item itemvalue="Application.CCC_2016.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CCC_2013.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664056311446</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added CCC_2006">
+      <created>1664059126099</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664059126099</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +218,7 @@
     <MESSAGE value="added CCC_2011" />
     <MESSAGE value="added CCC_2010" />
     <MESSAGE value="added CCC_2009" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CCC_2009" />
+    <MESSAGE value="added CCC_2006" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CCC_2006" />
   </component>
 </project>

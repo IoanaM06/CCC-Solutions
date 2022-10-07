@@ -53,10 +53,10 @@ public class J2 {
             }
         }
 
-        if ((divisorCounter - 1) * 2 != 4) {
-            return false;
-        } else {
+        if ((divisorCounter - 1) * 2 == 4) {
             return true;
+        } else {
+            return false;
         }
     }
 

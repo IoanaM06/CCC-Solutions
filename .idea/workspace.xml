@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="doesn't work but idk why and i want to make sure this is saved">
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="boop">
+      <change afterPath="$PROJECT_DIR$/src/CCC_2003/J2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC J2 Homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CCC Solutions.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CCC_2005/J2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2005/J2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,7 @@
   <component name="RunManager" selected="Application.CCC_2005.Main">
     <configuration name="CCC_2005.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2005.Main" />
-      <module name="CCC J2 Homework" />
+      <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CCC_2005.*" />
@@ -59,7 +62,7 @@
     </configuration>
     <configuration name="CCC_2013.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2013.Main" />
-      <module name="CCC J2 Homework" />
+      <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CCC_2013.*" />
@@ -72,7 +75,7 @@
     </configuration>
     <configuration name="CCC_2016.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2016.Main" />
-      <module name="CCC J2 Homework" />
+      <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CCC_2016.*" />
@@ -85,13 +88,26 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2006.Main" />
-      <module name="CCC J2 Homework" />
+      <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CCC_2006.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CCC Solutions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CCC Solutions" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664945194177</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="IT WOKS, THANK THE GODS">
+      <created>1664978119379</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664978119379</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +248,8 @@
     <MESSAGE value="added CCC_2009" />
     <MESSAGE value="added CCC_2006" />
     <MESSAGE value="doesn't work but idk why and i want to make sure this is saved" />
-    <option name="LAST_COMMIT_MESSAGE" value="doesn't work but idk why and i want to make sure this is saved" />
+    <MESSAGE value="IT WOKS, THANK THE GODS" />
+    <MESSAGE value="boop" />
+    <option name="LAST_COMMIT_MESSAGE" value="boop" />
   </component>
 </project>

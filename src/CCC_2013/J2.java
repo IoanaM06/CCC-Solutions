@@ -28,7 +28,7 @@ Output for Sample Input 2
 NO
  */
 
-public class J2 {
+public class  J2 {
     String word;
 
     public J2() throws FileNotFoundException {

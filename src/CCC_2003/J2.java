@@ -1,4 +1,6 @@
 package CCC_2003;
+import java.util.Scanner;
+
 /*
 Americans spell differently from Canadians. Americans write "neighbor" and "color" while Canadians write "neighbour" and
 "colour”.
@@ -24,5 +26,29 @@ taylour
 quit!
  */
 public class J2 {
+    String word;
 
+//    constructor
+    public J2() {
+//        getting user input
+        var scanner = new Scanner(System.in);
+        System.out.println("Enter words to be translated: ");
+        word = scanner.nextLine();
+
+//        runs program until user types "quit!"
+        while (! word.equals("quit!")){
+            word = scanner.nextLine();
+
+//            if word is 3 or less characters
+            if (word.length() < 4) System.out.println(word);
+
+//            if word longer than 3 characters
+            else {
+//                checks if second last letter is an o
+                if (word.charAt(word.length() - 2) == 'o') {
+
+                }
+            }
+        }
+    }
 }

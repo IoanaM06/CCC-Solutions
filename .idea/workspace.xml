@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="boop">
-      <change afterPath="$PROJECT_DIR$/src/CCC_2002/J2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CCC_2002/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CCC_2003/Main.java" afterDir="false" />
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="cleaning up my code">
+      <change afterPath="$PROJECT_DIR$/src/CCC_2021/J3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCC_2021/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCC_2022/J3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CCC_2003/J2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2003/J2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CCC_2013/J2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2013/J2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
       <recent name="C:\Users\Acer\IdeaProjects\CCC J2 Homework\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CCC_2002.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CCC_2002.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2002.Main" />
       <module name="CCC Solutions" />
@@ -87,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CCC_2016.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCC_2016.Main" />
-      <module name="CCC Solutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CCC_2016.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CCC_2019.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2019.Main" />
       <module name="CCC Solutions" />
@@ -113,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2021.Main" />
+      <module name="CCC Solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CCC_2021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CCC_2002.Main" />
         <item itemvalue="Application.CCC_2019.Main" />
         <item itemvalue="Application.CCC_2003.Main" />
         <item itemvalue="Application.CCC_2005.Main" />
-        <item itemvalue="Application.CCC_2016.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665185915531</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="cleaning up my code">
+      <created>1665680351643</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665680351643</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +264,7 @@
     <MESSAGE value="doesn't work but idk why and i want to make sure this is saved" />
     <MESSAGE value="IT WOKS, THANK THE GODS" />
     <MESSAGE value="boop" />
-    <option name="LAST_COMMIT_MESSAGE" value="boop" />
+    <MESSAGE value="cleaning up my code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaning up my code" />
   </component>
 </project>

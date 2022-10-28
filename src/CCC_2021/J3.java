@@ -1,6 +1,5 @@
 package CCC_2021;
 
-import java.io.File;
 import java.util.Scanner;
 
 /*
@@ -49,7 +48,7 @@ public class J3 {
     public J3() {
         var scanner = new Scanner(System.in);
 
-        while (!digits.equals("99999")) {
+        do {
             digits = scanner.nextLine();
 
             int sum = (int) digits.charAt(0) + (int) digits.charAt(1);
@@ -69,6 +68,6 @@ public class J3 {
 
             for (int i = 2; i < 5; i++) res.append(digits.charAt(i));
             System.out.println(res);
-        }
+        } while (!digits.equals("99999"));
     }
 }

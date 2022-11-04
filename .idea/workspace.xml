@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="cleaning up my code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CCC_2021/J3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2021/J3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +132,8 @@
       <workItem from="1666620775331" duration="13000" />
       <workItem from="1666620816642" duration="74000" />
       <workItem from="1666621015896" duration="1010000" />
+      <workItem from="1666995800951" duration="1368000" />
+      <workItem from="1667586272643" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="initial push">
       <created>1663983947966</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666396051543</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="cleaning up my code">
+      <created>1666995989237</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666995989237</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

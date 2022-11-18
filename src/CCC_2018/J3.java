@@ -41,7 +41,7 @@ public class J3 {
     public void calculatesDistance() {
         int sumOfDistance = 0;
         for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
+            for (int j = i; j < 5; j++) {
                 sumOfDistance += betweenCitiesArrList.get(j);
                 System.out.print(sumOfDistance);
                 System.out.print(" ");

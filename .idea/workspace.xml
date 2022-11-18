@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="cleaning up my code">
+      <change afterPath="$PROJECT_DIR$/src/CCC_2018/J3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCC_2018/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCC_2022/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +37,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
@@ -44,7 +47,7 @@
       <recent name="C:\Users\Acer\IdeaProjects\CCC J2 Homework\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CCC_2018.Main">
     <configuration name="CCC_2002.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2002.Main" />
       <module name="CCC Solutions" />
@@ -71,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CCC_2005.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCC_2005.Main" />
+    <configuration name="CCC_2018.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2018.Main" />
       <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CCC_2005.*" />
+          <option name="PATTERN" value="CCC_2018.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CCC_2018.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CCC_2002.Main" />
         <item itemvalue="Application.CCC_2019.Main" />
         <item itemvalue="Application.CCC_2003.Main" />
-        <item itemvalue="Application.CCC_2005.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -288,5 +291,10 @@
     <MESSAGE value="boop" />
     <MESSAGE value="cleaning up my code" />
     <option name="LAST_COMMIT_MESSAGE" value="cleaning up my code" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CCC_Solutions$Main.ic" NAME="Main Coverage Results" MODIFIED="1668635653166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>CCC_2021.*</FILTER>
+    </SUITE>
   </component>
 </project>

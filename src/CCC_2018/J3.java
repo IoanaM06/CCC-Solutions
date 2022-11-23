@@ -4,50 +4,74 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
-distance between two cities
-A--B--C--D--E
+Problem J3: Are we there yet?
+Problem Description
+You decide to go for a very long drive on a very straight road. Along this road are five cities. As you travel, you
+record the distance between each pair of consecutive cities.
+You would like to calculate a distance table that indicates the distance between any two of the cities you have
+encountered.
 
-OUTPUT
-distance between A and A
-distance between A and B
-distance between A and C
-...
+Input Specification
+The first line contains 4 positive integers less than 1000, each representing the distances between consecutive pairs of
+consecutive cities: specifically, the ith integer represents the distance between city i and city i + 1.
 
-distance between B and A
-distance between B and B
-distance between B and C
-...
+Output Specification
+The output should be 5 lines, with the ith line (1 ≤ i ≤ 5) containing the distance from city i to cities 1, 2, ... 5 in
+order, separated by one space.
 
-distance between C and A
-distance between C and B
-distance between C and C
-...
+Sample Input
+3 10 12 5
+Output for Sample Input
+0 3 13 25 30
+3 0 10 22 27
+13 10 0 12 17
+25 22 12 0 5
+30 27 17 5 0
 
+Explanation of Output for Sample Input
+The first line of output contains:
+• 0, since the distance from city 1 to city 1 is 0;
+• 3, since the distance between city 1 and city 2 is 3;
+• 13, since the distance between city 1 and city 3 is 3 + 10 = 13;
+• 25, since the distance between city1 and city4 is 3 + 10 + 12 = 25;
+• 30, since the distance between city1 and city5 is 3 + 10 + 12 + 5 = 30.
  */
 public class J3 {
     int betweenCities;
-    ArrayList<Integer> betweenCitiesArrList;
+    int[] betweenCitiesArr;
     public J3() {
+
         var scanner = new Scanner(System.in);
-        betweenCitiesArrList = new ArrayList<Integer>();
-        betweenCitiesArrList.add(0);
-
-        for (int i = 0; i < 4; i++) {
-            betweenCities = scanner.nextInt();
-            betweenCitiesArrList.add(betweenCities);
+        String[] tmp = scanner.nextLine().split(" ");
+        int[] relativeBetweenCitiesArr = new int[4];
+        for (var i = 0; i < 4; ++i) {
+            relativeBetweenCitiesArr[i] = Integer.parseInt(tmp[i]);
         }
-    }
 
-    public void calculatesDistance() {
-        int sumOfDistance = 0;
-        for (int i = 0; i < 5; i++) {
-            for (int j = i; j < 5; j++) {
-                sumOfDistance += betweenCitiesArrList.get(j);
-                System.out.print(sumOfDistance);
+        betweenCitiesArr = new int[5];
+        for (int j = 0; j < 5; j++) {
+            for (int i = 0; i < 4; i++) {
+                if (i == 0) betweenCitiesArr[i] = Math.abs(relativeBetweenCitiesArr[j] - relativeBetweenCitiesArr[i]);
+                else betweenCitiesArr[i] = betweenCitiesArr[i - 1] + relativeBetweenCitiesArr[i - 1];
+            }
+
+//            displays the contents of the array
+            for (int i = 0; i < 5; i++) {
+                System.out.print(betweenCitiesArr[i]);
                 System.out.print(" ");
             }
-            sumOfDistance = 0;
             System.out.println();
+
+            for (int i = 0; i < 5; i++) betweenCitiesArr[i] = 0;
         }
     }
+
+//    public void calculatesDistance() {
+//        for (int i = 0; i < 5; i++) {
+//            for (int j = 0; j < 5; j++) {
+//                System.out.print(Math.abs(betweenCitiesArr[i] - betweenCitiesArr[j]) + " ");
+//            }
+//            System.out.println();
+//        }
+//    }
 }

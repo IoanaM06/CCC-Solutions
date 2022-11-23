@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="ahhhhhhhh" />
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="ahhhhhhhh">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CCC_2018/J3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2018/J3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CCC_2018/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2018/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,9 +115,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CCC_2018.Main" />
+        <item itemvalue="Application.CCC_2019.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CCC_2002.Main" />
-        <item itemvalue="Application.CCC_2019.Main" />
         <item itemvalue="Application.CCC_2003.Main" />
       </list>
     </recent_temporary>
@@ -259,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668787286708</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ahhhhhhhh">
+      <created>1668789068870</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668789068870</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -21,6 +21,7 @@ order, separated by one space.
 
 Sample Input
 3 10 12 5
+
 Output for Sample Input
 0 3 13 25 30
 3 0 10 22 27
@@ -37,41 +38,24 @@ The first line of output contains:
 • 30, since the distance between city1 and city5 is 3 + 10 + 12 + 5 = 30.
  */
 public class J3 {
-    int betweenCities;
-    int[] betweenCitiesArr;
     public J3() {
+        int tempNum;
 
         var scanner = new Scanner(System.in);
         String[] tmp = scanner.nextLine().split(" ");
+
         int[] relativeBetweenCitiesArr = new int[4];
-        for (var i = 0; i < 4; ++i) {
-            relativeBetweenCitiesArr[i] = Integer.parseInt(tmp[i]);
-        }
+        int[] betweenCitiesArr = new int[5];
 
-        betweenCitiesArr = new int[5];
-        for (int j = 0; j < 5; j++) {
-            for (int i = 0; i < 4; i++) {
-                if (i == 0) betweenCitiesArr[i] = Math.abs(relativeBetweenCitiesArr[j] - relativeBetweenCitiesArr[i]);
-                else betweenCitiesArr[i] = betweenCitiesArr[i - 1] + relativeBetweenCitiesArr[i - 1];
-            }
+        for (var i = 0; i < 4; ++i) relativeBetweenCitiesArr[i] = Integer.parseInt(tmp[i]);
+        for (int i = 1; i < 5; i++) betweenCitiesArr[i] = betweenCitiesArr[i - 1] + relativeBetweenCitiesArr[i - 1];
 
-//            displays the contents of the array
-            for (int i = 0; i < 5; i++) {
-                System.out.print(betweenCitiesArr[i]);
-                System.out.print(" ");
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                tempNum = Math.abs(betweenCitiesArr[i] - betweenCitiesArr[j]);
+                System.out.print(tempNum + " ");
             }
             System.out.println();
-
-            for (int i = 0; i < 5; i++) betweenCitiesArr[i] = 0;
         }
     }
-
-//    public void calculatesDistance() {
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = 0; j < 5; j++) {
-//                System.out.print(Math.abs(betweenCitiesArr[i] - betweenCitiesArr[j]) + " ");
-//            }
-//            System.out.println();
-//        }
-//    }
 }

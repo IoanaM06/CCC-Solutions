@@ -1,6 +1,5 @@
 package CCC_2018;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -39,21 +38,21 @@ The first line of output contains:
  */
 public class J3 {
     public J3() {
-        int tempNum;
+        int locationNum;
 
         var scanner = new Scanner(System.in);
         String[] tmp = scanner.nextLine().split(" ");
 
-        int[] relativeBetweenCitiesArr = new int[4];
-        int[] betweenCitiesArr = new int[5];
+        int[] distBetweenCities = new int[4];
+        int[] citiesLocation = new int[5];
 
-        for (var i = 0; i < 4; ++i) relativeBetweenCitiesArr[i] = Integer.parseInt(tmp[i]);
-        for (int i = 1; i < 5; i++) betweenCitiesArr[i] = betweenCitiesArr[i - 1] + relativeBetweenCitiesArr[i - 1];
+        for (var i = 0; i < 4; ++i) distBetweenCities[i] = Integer.parseInt(tmp[i]);
+        for (int i = 1; i < 5; i++) citiesLocation[i] = citiesLocation[i - 1] + distBetweenCities[i - 1];
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                tempNum = Math.abs(betweenCitiesArr[i] - betweenCitiesArr[j]);
-                System.out.print(tempNum + " ");
+                locationNum = Math.abs(citiesLocation[i] - citiesLocation[j]);
+                System.out.print(locationNum + " ");
             }
             System.out.println();
         }

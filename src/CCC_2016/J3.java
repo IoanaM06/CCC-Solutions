@@ -39,20 +39,25 @@ Output for Sample Input 3
 
  */
 public class J3 {
-    String userWord;
+    String word;
 
     public J3() {
         var scanner = new Scanner(System.in);
-        userWord = scanner.nextLine();
+        word = scanner.nextLine();
     }
 
-    public boolean isPalindrome(String word) {
-        int j = word.length();
+    public int palindromeLength() {
+        int counter = 0;
 
         for (int i = 0; i < word.length(); i++) {
-            if (word.charAt(i) != word.charAt(j)) return false;
-            j++;
+            for (int j = word.length() - 1; j >= 0; j--) {
+                if (word.charAt(i) == word.charAt(j)) {
+                    counter++;
+                    break;
+                }
+            }
         }
-        return true;
+
+        return counter % 2 != 0? counter : counter -1;
     }
 }

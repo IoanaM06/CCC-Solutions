@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="CCC_2016 J3 creation">
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CCC_2016/J3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2016/J3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CCC_2016/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2016/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="C:\Users\Acer\IdeaProjects\CCC J2 Homework\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CCC_2018.Main">
+  <component name="RunManager" selected="Application.CCC_2016.Main">
     <configuration name="CCC_2002.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2002.Main" />
       <module name="CCC Solutions" />
@@ -59,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CCC_2003.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCC_2003.Main" />
+    <configuration name="CCC_2016.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2016.Main" />
       <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CCC_2003.*" />
+          <option name="PATTERN" value="CCC_2016.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CCC_2016.Main" />
         <item itemvalue="Application.CCC_2018.Main" />
         <item itemvalue="Application.CCC_2019.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CCC_2002.Main" />
-        <item itemvalue="Application.CCC_2003.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669422664192</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=".">
+      <created>1669826694307</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669826694307</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +343,8 @@
     <MESSAGE value="completed CCC 2018 - J3" />
     <MESSAGE value="update variable names" />
     <MESSAGE value="CCC_2016 J3 creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="CCC_2016 J3 creation" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CCC_Solutions$Main.ic" NAME="Main Coverage Results" MODIFIED="1668635653166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

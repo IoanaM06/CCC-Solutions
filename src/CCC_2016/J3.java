@@ -48,6 +48,7 @@ public class J3 {
 
     public int palindromeLength() {
         int counter = 0;
+        int longestPalindrome = 0;
 
         for (int i = 0; i < word.length(); i++) {
             for (int j = word.length() - 1; j >= 0; j--) {
@@ -55,9 +56,13 @@ public class J3 {
                     counter++;
                     break;
                 }
+                if (counter > longestPalindrome) {
+                    longestPalindrome = counter;
+                    counter = 0;
+                }
             }
         }
 
-        return counter % 2 != 0? counter : counter -1;
+        return longestPalindrome % 2 != 0? longestPalindrome : longestPalindrome -1;
     }
 }

@@ -47,43 +47,34 @@ public class J3 {
     }
 
     public boolean isPalindrome(int index1, int index2) {
-        int j = index2;
-
-        if (index2 % 2 != 0) index2++;
-
         for (int i = index1; i <= index2 / 2; i++) {
-            System.out.println("i = " + word.charAt(i) + "   j = " + word.charAt(j));
-            if (word.charAt(i) != word.charAt(j)) return false;
-            j--;
+//            error checking
+            System.out.println("i = " + word.charAt(i) + "   j = " + word.charAt(index2));
+
+//            actual code
+            if (word.charAt(i) != word.charAt(index2)) return false;
+            index2--;
         }
         return true;
     }
 
     public int palindromeLength() {
-        int palLenght = 0;
-        int longestPalindrome = 1;
+//        variables
+        int palLength = 0;
+        int longestPal = 1;
 
-//        for the first index of the word (until the end)
         for (int i = 0; i < word.length(); i++) {
-
-//            for the last index of the word (until index i)
             for (int j = word.length() - 1; j > i; j--) {
-
-//                uses a function to check if there's a palindrome in the word
                 if (isPalindrome(i, j)) {
-//                    calculates the length of the palindrome
-                    palLenght = j - i + 1;
-//                    checks if the
-                    if (palLenght > longestPalindrome) longestPalindrome = palLenght;
+                    palLength = j - i + 1;
                     break;
                 }
-//                checking to make sure the program works
-                System.out.println("longest palindrome: " + longestPalindrome);
+                if(palLength > longestPal) {
+                    longestPal = palLength;
+                    palLength = 0;
+                }
             }
         }
-
-//        return longestPalindrome % 2 != 0 || longestPalindrome == 0? longestPalindrome : longestPalindrome + 1;
-        return longestPalindrome;
+        return longestPal;
     }
 }
-// banana

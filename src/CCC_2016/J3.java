@@ -46,23 +46,44 @@ public class J3 {
         word = scanner.nextLine();
     }
 
-    public int palindromeLength() {
-        int counter = 0;
-        int longestPalindrome = 0;
+    public boolean isPalindrome(int index1, int index2) {
+        int j = index2;
 
+        if (index2 % 2 != 0) index2++;
+
+        for (int i = index1; i <= index2 / 2; i++) {
+            System.out.println("i = " + word.charAt(i) + "   j = " + word.charAt(j));
+            if (word.charAt(i) != word.charAt(j)) return false;
+            j--;
+        }
+        return true;
+    }
+
+    public int palindromeLength() {
+        int palLenght = 0;
+        int longestPalindrome = 1;
+
+//        for the first index of the word (until the end)
         for (int i = 0; i < word.length(); i++) {
-            for (int j = word.length() - 1; j >= 0; j--) {
-                if (word.charAt(i) == word.charAt(j)) {
-                    counter++;
+
+//            for the last index of the word (until index i)
+            for (int j = word.length() - 1; j > i; j--) {
+
+//                uses a function to check if there's a palindrome in the word
+                if (isPalindrome(i, j)) {
+//                    calculates the length of the palindrome
+                    palLenght = j - i + 1;
+//                    checks if the
+                    if (palLenght > longestPalindrome) longestPalindrome = palLenght;
                     break;
                 }
-                if (counter > longestPalindrome) {
-                    longestPalindrome = counter;
-                    counter = 0;
-                }
+//                checking to make sure the program works
+                System.out.println("longest palindrome: " + longestPalindrome);
             }
         }
 
-        return longestPalindrome % 2 != 0? longestPalindrome : longestPalindrome -1;
+//        return longestPalindrome % 2 != 0 || longestPalindrome == 0? longestPalindrome : longestPalindrome + 1;
+        return longestPalindrome;
     }
 }
+// banana

@@ -46,35 +46,24 @@ public class J3 {
         word = scanner.nextLine();
     }
 
-    public boolean isPalindrome(int index1, int index2) {
-        for (int i = index1; i <= index2 / 2; i++) {
-//            error checking
-            System.out.println("i = " + word.charAt(i) + "   j = " + word.charAt(index2));
-
-//            actual code
-            if (word.charAt(i) != word.charAt(index2)) return false;
-            index2--;
+    public static boolean isPalindrome(String checkPal) {
+        for (int i = 0; i < checkPal.length() / 2; i++) {
+            if (checkPal.charAt(i) != checkPal.charAt(checkPal.length() - 1 - i)) return false;
         }
         return true;
     }
 
     public int palindromeLength() {
-//        variables
-        int palLength = 0;
-        int longestPal = 1;
-
+        int wordLength;
         for (int i = 0; i < word.length(); i++) {
-            for (int j = word.length() - 1; j > i; j--) {
-                if (isPalindrome(i, j)) {
-                    palLength = j - i + 1;
-                    break;
-                }
-                if(palLength > longestPal) {
-                    longestPal = palLength;
-                    palLength = 0;
+            for (int j  = 0; j <= i; j++) {
+                wordLength = word.length() - 1 - i;
+                System.out.println(word.substring(j, wordLength + j + 1));
+                if (isPalindrome(word.substring(j, wordLength + j + 1))) {
+                    return wordLength + 1;
                 }
             }
         }
-        return longestPal;
+        return 1;
     }
 }

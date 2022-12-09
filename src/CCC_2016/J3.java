@@ -63,7 +63,6 @@ public class J3 {
                     return wordLength + 1;
                 }
             }
-
         }
         return 1;
     }

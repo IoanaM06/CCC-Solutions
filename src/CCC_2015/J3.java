@@ -41,26 +41,71 @@ public class J3 {
         word = scanner.nextLine();
     }
 
+    public boolean isVowel(char letter) {
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+
+        for (char character : vowels) {
+            if (character == letter) return true;
+        }
+        return false;
+    }
+
     public void translator() {
         char ch;
 
         for (int i = 0; i < word.length(); i++) {
             ch = word.charAt(i);
-            System.out.print(ch);
 
-            if (ch < 'e') {
-                if (ch - 'a' < Math.abs(ch - 'e')) System.out.print('a' + (char) (ch + 1));
-                else System.out.print('e');
-            } else if (ch < 'i') {
-                if (ch - 'e' < Math.abs(ch - 'i')) System.out.print('e');
-                else System.out.print('i');
-            } else if (ch < 'o') {
-                if (ch - 'i' < Math.abs(ch - 'o')) System.out.print('i');
-                else System.out.print('o');
-            } else if (ch < 'u') {
-                if (ch - 'o' < Math.abs(ch - 'u')) System.out.print('o');
-            } else if (ch > 'u') System.out.print('u');
+            if (isVowel(ch)) {
+                System.out.print(ch);
 
+            } else {
+                System.out.print(ch);
+
+                if (ch < 'e') {
+//                    print vowel
+                    if (ch - 'a' < 'e' - ch) System.out.print('a');
+                    else System.out.print('e');
+
+//                    print consonant
+                    if (ch == 'd') System.out.print('f');
+                    else System.out.print((char) (ch + 1));
+
+                } else if (ch < 'i') {
+//                    print vowel
+                    if (ch - 'e' < 'i' - ch) System.out.print('e');
+                    else System.out.print('i');
+
+//                    print consonant
+                    if (ch == 'h') System.out.print('j');
+                    else System.out.print((char) (ch + 1));
+
+                } else if (ch < 'o') {
+//                    print vowel
+                    if (ch - 'i' < 'o' - ch) System.out.print('i');
+                    else System.out.print('o');
+
+//                    print consonant
+                    if (ch == 'n') System.out.print('p');
+                    else System.out.print((char) (ch + 1));
+
+                } else if (ch < 'u') {
+//                    print vowel
+                    if (ch - 'o' < 'u' - ch) System.out.print('o');
+                    else System.out.print('u');
+
+//                    print consonant
+                    if (ch == 't') System.out.print('v');
+                    else System.out.print((char) (ch + 1));
+
+                } else {
+                    System.out.print('u');
+
+//                    print consonant
+                    if (ch == 'z') System.out.print('z');
+                    else System.out.print((char) (ch + 1));
+                }
+            }
         }
     }
 }

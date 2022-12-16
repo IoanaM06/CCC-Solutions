@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="completed CCC_2016 - J3">
-      <change afterPath="$PROJECT_DIR$/src/CCC_2015/J3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="CCC_2015 completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +42,13 @@
       <recent name="C:\Users\Acer\IdeaProjects\CCC J2 Homework\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CCC_2016.Main">
-    <configuration name="CCC_2002.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCC_2002.Main" />
+  <component name="RunManager" selected="Application.CCC_2015.Main">
+    <configuration name="CCC_2015.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CCC_2015.Main" />
       <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CCC_2002.*" />
+          <option name="PATTERN" value="CCC_2015.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CCC_2015.Main" />
         <item itemvalue="Application.CCC_2016.Main" />
         <item itemvalue="Application.CCC_2018.Main" />
         <item itemvalue="Application.CCC_2019.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CCC_2002.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670627094327</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="CCC_2015">
+      <created>1670632458129</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670632458129</updated>
+    </task>
+    <task id="LOCAL-00033" summary="CCC_2015 completed">
+      <created>1671206973760</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1671206973760</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,8 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added CCC_2019" />
-    <MESSAGE value="added CCC_2016 + unversioned file" />
     <MESSAGE value="pushhhhh" />
     <MESSAGE value="added CCC_2013" />
     <MESSAGE value="file thingy" />
@@ -396,7 +405,9 @@
     <MESSAGE value="abracadabra" />
     <MESSAGE value="completed CCC_2016" />
     <MESSAGE value="completed CCC_2016 - J3" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed CCC_2016 - J3" />
+    <MESSAGE value="CCC_2015" />
+    <MESSAGE value="CCC_2015 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="CCC_2015 completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CCC_Solutions$CCC_2016_Main.ic" NAME="CCC_2016.Main Coverage Results" MODIFIED="1670424667970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

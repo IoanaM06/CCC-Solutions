@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="CCC_2015 completed" />
+    <list default="true" id="23ca49cf-f957-4d8c-a846-25b14f912674" name="Changes" comment="CCC_2015 completed">
+      <change afterPath="$PROJECT_DIR$/src/CCC_2013/J3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CCC_2013/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CCC_2013/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +47,7 @@
       <recent name="C:\Users\Acer\IdeaProjects\CCC J2 Homework\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CCC_2015.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CCC_2015.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCC_2015.Main" />
       <module name="CCC Solutions" />
@@ -82,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CCC_2019.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCC_2019.Main" />
+    <configuration name="Extra.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Extra.Main" />
       <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CCC_2019.*" />
+          <option name="PATTERN" value="Extra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCC_2021.Main" />
+      <option name="MAIN_CLASS_NAME" value="CCC_2013.Main" />
       <module name="CCC Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CCC_2021.*" />
+          <option name="PATTERN" value="CCC_2013.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Extra.Main" />
         <item itemvalue="Application.CCC_2015.Main" />
         <item itemvalue="Application.CCC_2016.Main" />
         <item itemvalue="Application.CCC_2018.Main" />
-        <item itemvalue="Application.CCC_2019.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671206973760</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="CCC_2015 completed">
+      <created>1671207115942</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1671207115942</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
